@@ -26,7 +26,7 @@ p {
     border-radius: 10px;
 }
 
-@keyframes smallToBig {
+@keyframes smallToBig { // pequeñoAGrande
     //Inicio
     from {
         font-size: smaller;

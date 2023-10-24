@@ -14,10 +14,11 @@
             </li>
             <li class="item-list"><router-link to="/sucursales" class="link">Sucursales</router-link></li>
             <li class="item-list"><router-link to="/galeria" class="link">Array v-for en li VUE</router-link></li>
-            <li class="item-list"><router-link to="/contactos" class="link">Contactos</router-link></li>
+            <li class="item-list"><router-link to="/contactos" class="link">Array de objetos con v-for</router-link></li>
             <li class="item-list"><router-link to="/practica1" class="link">Practica con Arrays</router-link></li>
-            <li class="item-list"><router-link to="/practica2" class="link">Practica con Arrays de Objetos</router-link>
-            </li>
+            <li class="item-list"><router-link to="/practica2" class="link">Practica con Arrays de Objetos</router-link></li>
+            <li class="item-list"><router-link to="/grid1" class="link">Tarjetas con GRID</router-link></li>
+            <li class="item-list"><router-link to="/grid2" class="link">Galeria con GRID</router-link></li>
         </ul>
     </nav>
 </template>

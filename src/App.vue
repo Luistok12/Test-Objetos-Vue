@@ -42,8 +42,8 @@ body {
 
 #app{
   main{
-    display: grid;
-    place-items: center;
+    // display: flex;
+    // justify-content: center;
     min-height: 100vh;
   }
 }
