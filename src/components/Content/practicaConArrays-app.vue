@@ -72,7 +72,6 @@ export default {
                 this.elementos.forEach(elemento => {
                     elemento.id = this.siguienteId;
                     this.siguienteId++;
-
                 });
             }
             else alert("Datos invalidos. Verifique y vuelva a intentarlo");

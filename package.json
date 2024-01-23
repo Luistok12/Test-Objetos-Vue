@@ -8,12 +8,14 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
-    "core-js": "^3.8.3",
+    "core-js": "^3.18.3",
     "router": "^1.3.8",
     "sass": "^1.65.1",
     "sass-loader": "^13.3.2",
     "vue": "^3.3.4",
-    "vue-router": "^4.2.4"
+    "vue-router": "^4.2.4",
+    "vuex": "^4.1.0",
+    "vuex-composition-api": "^3.0.0"
   },
   "devDependencies": {
     "@babel/core": "^7.12.16",

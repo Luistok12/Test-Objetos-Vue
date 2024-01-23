@@ -4,13 +4,11 @@
             <li class="item-list"><router-link to="/" class="link">Inicio</router-link></li>
             <li class="submenu-container item-list" @mouseenter="showSubmenu = true" @mouseleave="showSubmenu = false">
                 <router-link to="/categorias" class="link">Categorias</router-link>
-                <!-- <transition name="slide"> -->
                 <ul class="submenu" v-show="showSubmenu">
-                    <li class="item-list"><router-link to="/autos" class="link-submenu">Auto</router-link></li>
-                    <li class="item-list"><router-link to="/motos" class="link-submenu">Moto</router-link></li>
-                    <li class="item-list"><router-link to="/bicicletas" class="link-submenu">Bicicleta</router-link></li>
+                    <li class="item-list"><router-link to="/categorias/autos" class="link-submenu">Auto</router-link></li>
+                    <li class="item-list"><router-link to="/categorias/motos" class="link-submenu">Moto</router-link></li>
+                    <li class="item-list"><router-link to="/categorias/bicicletas" class="link-submenu">Bicicleta</router-link></li>
                 </ul>
-                <!-- </transition> -->
             </li>
             <li class="item-list"><router-link to="/sucursales" class="link">Sucursales</router-link></li>
             <li class="item-list"><router-link to="/galeria" class="link">Array v-for en li VUE</router-link></li>
@@ -57,7 +55,7 @@ export default {
             cursor: pointer;
 
             &:hover,
-             :focus {
+            :focus {
                 background-color: rgb(173, 171, 171);
                 transition: background-color 0.2s ease-out;
             }
@@ -66,10 +64,11 @@ export default {
                 color: white;
                 text-decoration: none;
                 padding: 10px;
-                display: inline-block;  // Importantisimo el display: inline-block;
+                display: inline-block; // Importantisimo el display: inline-block;
                 border-radius: 10px;
                 // border: 1px solid black;
             }
+
         }
 
         .submenu-container {
@@ -79,7 +78,8 @@ export default {
                 border-radius: 10px 10px 0 0;
                 animation-name: slideDown;
                 animation-duration: 2s;
-                animation-fill-mode: forwards;  /* Mantener estado final */
+                animation-fill-mode: forwards;
+                /* Mantener estado final */
             }
 
             .submenu {
@@ -99,7 +99,7 @@ export default {
                         border-radius: 0 0 5px 5px;
                     }
 
-                    .link-submenu{
+                    .link-submenu {
                         display: inline-block;
                         width: 100%;
                         padding: 7px;
